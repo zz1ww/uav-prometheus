@@ -97,6 +97,15 @@
 | 定位误差 | **< 5 cm** |
 | 投放响应时间 | **约 200 ms** |
 
+**实物与场地照片**（完整 18 张见 [`reports/images/`](reports/images/README.md)）：
+
+| | |
+|---|---|
+| [整机轴距测量](reports/images/01-轴距测量_卷尺量330mm.jpeg) | [Pixhawk 4 飞控](reports/images/04-Pixhawk4飞控实物.jpeg) |
+| [Jetson Xavier NX](reports/images/05-Jetson-Xavier-NX开发板.jpeg) | [Livox Mid-360 安装位置](reports/images/08-Livox-Mid360雷达机腹安装.jpeg) |
+| [舵机拨杆式投放装置](reports/images/14-投放装置_舵机拨杆.jpeg) | [电调 / 电机实物](reports/images/13-电机_X2212_KV980.jpeg) |
+| [比赛场地全景](reports/images/15-比赛场地实景_全景.png) | **[场地坐标示意图](reports/images/16-场地坐标示意图.png)** |
+
 ---
 
 ## 四、任务实现要点
@@ -144,7 +153,8 @@
 │   └── watch_mem.sh                         # FAST-LIO 内存监控
 ├── reports/
 │   ├── 技术报告_终版.docx                     # 比赛技术报告（完整版）
-│   └── 技术报告_提交版.pdf                     # 提交用（含图）
+│   ├── 技术报告_提交版.pdf                     # 提交用（含图）
+│   └── images/                              # 从 docx 导出的 18 张插图（按内容重命名）
 └── hardware/
     ├── Pixhawk4引脚定义.pdf
     ├── QGC地面站教学无人机使用教程.pdf
