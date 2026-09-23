@@ -1,0 +1,15 @@
+* text=auto eol=lf
+
+# 脚本强制 LF（避免在 Windows 上被转成 CRLF 导致容器内执行失败）
+*.sh   text eol=lf
+*.py   text eol=lf
+*.md   text eol=lf
+*.params text eol=lf
+
+# 二进制文件（不要做文本转换）
+*.docx binary
+*.pdf  binary
+*.zip  binary
+*.px4  binary
+*.png  binary
+*.jpg  binary

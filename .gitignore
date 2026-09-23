@@ -1,0 +1,35 @@
+# ---------- 大压缩包 / 数据文件（不进仓库）----------
+*.tar
+*.tar.gz
+*.bag
+*.pcd
+*.db3
+Prometheus/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# ---------- ROS ----------
+devel/
+build/
+logs/
+*.log
+
+# ---------- 编辑器 / 系统 ----------
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Office 锁文件 ----------
+~$*.docx
+~$*.xlsx
+~$*.pptx
